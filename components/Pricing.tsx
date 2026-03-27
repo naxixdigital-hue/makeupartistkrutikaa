@@ -85,13 +85,13 @@ const packages = [
   },
   {
     id: 6,
-    packageName: 'Slider Makeup',
+    packageName: 'Sider Makeup',
     price: '₹2,500+',
     icon: Sparkles,
     popular: true,
     layout: 'bottom',
     description:
-      'Signature slider glow look for weddings & receptions.',
+      'Signature sider glow look for weddings & receptions.',
     features: [
       'Lightweight, photo-ready makeup',
       'Highlights your natural features',
