@@ -1,10 +1,11 @@
 import { Check, Sparkles, Crown, Star, Gift } from 'lucide-react';
+import Link from 'next/link';
 
 const packages = [
   {
     id: 1,
     packageName: 'Bridal Makeup',
-    price: '₹17,000',
+    price: '₹15,000',
     icon: Crown,
     popular: false,
     layout: 'top',
@@ -21,7 +22,7 @@ const packages = [
   {
     id: 2,
     packageName: 'Bridal Premium',
-    price: '₹40,000',
+    price: '₹35,000',
     icon: Sparkles,
     popular: true,
     layout: 'top',
@@ -40,7 +41,7 @@ const packages = [
   {
     id: 3,
     packageName: 'Engagement Makeup',
-    price: '₹15,000',
+    price: '₹12,000',
     icon: Star,
     popular: false,
     layout: 'top',
@@ -318,9 +319,14 @@ export function Pricing() {
           <p className="text-gray-600 mb-4">
             Need a custom package? Let's create something special for you!
           </p>
-          <button className="text-[var(--color-secondary)] font-semibold hover:text-[var(--color-primary)] transition-colors">
+          <Link
+            href={`https://wa.me/${WHATSAPP_NUMBER}?text=Hello%21%20I%27m%20looking%20for%20a%20custom%20quote%20for%20makeup%20services.%0AOccasion%3A%20%5Bplease%20fill%5D%0ADate%3A%20%5Bplease%20fill%5D%0ATime%3A%20%5Bplease%20fill%5D`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[var(--color-secondary)] font-semibold hover:text-[var(--color-primary)] transition-colors"
+            >
             Contact for Custom Quote →
-          </button>
+          </Link>
         </div>
 
       </div>

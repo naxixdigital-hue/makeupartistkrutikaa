@@ -22,7 +22,7 @@ export function Services() {
       title: 'Festive Glow',
       description: 'Bold, glamorous looks for parties, photoshoots, or any event where you want to shine.',
       features: ['Bold & creative', 'Glitter & glam options', 'Long-lasting', 'Instagram-worthy'],
-      image: '/alpana.JPG'
+      image: '/festive.JPG'
     },
     {
       icon: <Sparkles className="w-8 h-8" />,
