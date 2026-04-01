@@ -131,10 +131,6 @@ export default function Gallery() {
               className="w-full max-h-[80vh] object-contain rounded-lg"
             />
 
-            {/* Caption */}
-            <p className="text-center text-white mt-4 text-lg">
-              {selectedImage.alt}
-            </p>
           </div>
         </div>
       )}
