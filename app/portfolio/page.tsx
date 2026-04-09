@@ -9,12 +9,12 @@ type ImageType = {
 };
 
 const galleryImages: ImageType[] = [
-  { url: '/portfolio/engagement-3.jpeg', alt: 'Engagement Makeup' },
+  { url: '/portfolio/engagement.jpeg', alt: 'Engagement Makeup' },
   { url: '/portfolio/babyshower-1.jpg', alt: 'Babyshower Makeup' },
   { url: '/portfolio/engagement-1.jpeg', alt: 'Engagement Makeup' },
   { url: '/portfolio/wedding-3.jpeg', alt: 'Wedding Makeup' },
   { url: '/portfolio/festive-makeup-2.PNG', alt: 'Festive Makeup' },
-  { url: '/portfolio/engagement-2.JPEG', alt: 'Engagement Artist' },
+  { url: '/portfolio/makeup.JPEG', alt: 'Engagement Artist' },
   { url: '/portfolio/festive-makeup-3.JPG', alt: 'Festive Makeup' },
   { url: '/portfolio/festive-makeup-4.PNG', alt: 'Festive Makeup' },
   { url: '/portfolio/wedding-5.jpg', alt: 'Wedding Makeup' },
