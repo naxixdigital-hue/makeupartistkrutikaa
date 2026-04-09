@@ -54,7 +54,6 @@ export default function Gallery() {
     );
   };
 
-  // 🔥 Keyboard support
   useEffect(() => {
     const handleKey = (e: KeyboardEvent) => {
       if (currentIndex === null) return;
