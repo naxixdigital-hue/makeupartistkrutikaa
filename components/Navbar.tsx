@@ -74,14 +74,14 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
-            <Link 
-          href={`https://wa.me/${WHATSAPP_NUMBER}?text=Hello%21%20I%20want%20to%20book%20a%20makeup%20appointment.%0APackage%2Foccasions%3A%20%5Bplease%20fill%5D%0ADate%3A%20%5Bplease%20fill%5D%0ATime%3A%20%5Bplease%20fill%5D`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block bg-[var(--color-primary)] hover:bg-[var(--color-secondary)] text-white px-6 py-2 rounded-full transition-colors text-lg"
-        >
-          Book Your Appointment
-        </Link>
+            <Link
+              href={`https://wa.me/${WHATSAPP_NUMBER}?text=Hello%21%20I%20want%20to%20book%20a%20makeup%20appointment.%0APackage%2Foccasions%3A%20%5Bplease%20fill%5D%0ADate%3A%20%5Bplease%20fill%5D%0ATime%3A%20%5Bplease%20fill%5D`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-[var(--color-primary)] hover:bg-[var(--color-secondary)] text-white px-6 py-2 rounded-full transition-colors text-center"
+            >
+              Book Now
+            </Link>
           </div>
         )}
       </div>
