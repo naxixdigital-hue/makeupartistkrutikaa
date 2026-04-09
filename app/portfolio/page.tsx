@@ -9,7 +9,7 @@ type ImageType = {
 };
 
 const galleryImages: ImageType[] = [
-  { url: 'portfolio/engagement-3.jpeg', alt: 'Engagement Look' },
+  { url: 'portfolio/engagement-3.jpeg', alt: 'Engagement Makeup' },
   { url: '/portfolio/babyshower-1.jpg', alt: 'Babyshower' },
   { url: '/portfolio/engagement-1.jpeg', alt: 'Engagement Makeup' },
   { url: 'portfolio/wedding-3.jpeg', alt: 'Wedding Makeup' },
@@ -18,7 +18,7 @@ const galleryImages: ImageType[] = [
   { url: 'portfolio/festive-makeup-3.JPG', alt: 'Festive Makeup' },
   { url: 'portfolio/festive-makeup-4.PNG', alt: 'Festive Makeup' },
   { url: 'portfolio/wedding-5.jpg', alt: 'Wedding Makeup' },
-  { url: 'portfolio/engagement-4.jpg', alt: 'Engagement Look' },
+  { url: 'portfolio/engagement-4.jpg', alt: 'Engagement Makeup' },
   { url: 'portfolio/photoshoot-1.jpeg', alt: 'Photoshoot Makeup' },
   { url: 'portfolio/photoshoot-2.jpg', alt: 'Photoshoot Makeup' },
   { url: 'portfolio/photoshoot-3.jpeg', alt: 'Photoshoot Makeup' },
