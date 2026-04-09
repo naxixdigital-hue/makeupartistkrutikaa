@@ -10,7 +10,7 @@ type ImageType = {
 
 const galleryImages: ImageType[] = [
   { url: 'portfolio/engagement-3.jpeg', alt: 'Engagement Makeup' },
-  { url: '/portfolio/babyshower-1.jpg', alt: 'Babyshower' },
+  { url: '/portfolio/babyshower-1.jpg', alt: 'Babyshower Makeup' },
   { url: '/portfolio/engagement-1.jpeg', alt: 'Engagement Makeup' },
   { url: 'portfolio/wedding-3.jpeg', alt: 'Wedding Makeup' },
   { url: '/portfolio/festive-makeup-2.PNG', alt: 'Festive Makeup' },
