@@ -1,12 +1,13 @@
 "use client";
 
 import { useState } from 'react';
-import { Sparkles, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import Link from 'next/link';
+
+const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER;
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER;
 
   const navLinks = [
     { href: '#about', label: 'About' },
@@ -37,7 +38,7 @@ export function Navbar() {
               </a>
             ))}
             <Link
-              href="https://wa.me/${WHATSAPP_NUMBER}?text=Hello%21%20I%20want%20to%20book%20a%20makeup%20appointment.%0APackage%2Foccasions%3A%20%5Bplease%20fill%5D%0ADate%3A%20%5Bplease%20fill%5D%0ATime%3A%20%5Bplease%20fill%5D"
+              href={`https://wa.me/${WHATSAPP_NUMBER}?text=Hello%21%20I%20want%20to%20book%20a%20makeup%20appointment.%0APackage%2Foccasions%3A%20%5Bplease%20fill%5D%0ADate%3A%20%5Bplease%20fill%5D%0ATime%3A%20%5Bplease%20fill%5D`}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[var(--color-primary)] hover:bg-[var(--color-secondary)] text-white px-6 py-2 rounded-full transition-colors"
@@ -73,14 +74,14 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
-            <Link
-              href="https://wa.me/${WHATSAPP_NUMBER}?text=Hello%21%20I%20want%20to%20book%20a%20makeup%20appointment.%0APackage%2Foccasions%3A%20%5Bplease%20fill%5D%0ADate%3A%20%5Bplease%20fill%5D%0ATime%3A%20%5Bplease%20fill%5D"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block bg-[var(--color-primary)] hover:bg-[var(--color-secondary)] text-white px-6 py-2 rounded-full transition-colors text-center"
-            >
-              Book Now
-            </Link>
+            <Link 
+          href={`https://wa.me/${WHATSAPP_NUMBER}?text=Hello%21%20I%20want%20to%20book%20a%20makeup%20appointment.%0APackage%2Foccasions%3A%20%5Bplease%20fill%5D%0ADate%3A%20%5Bplease%20fill%5D%0ATime%3A%20%5Bplease%20fill%5D`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-[var(--color-primary)] hover:bg-[var(--color-secondary)] text-white px-6 py-2 rounded-full transition-colors text-lg"
+        >
+          Book Your Appointment
+        </Link>
           </div>
         )}
       </div>
